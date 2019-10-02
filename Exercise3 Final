@@ -18,7 +18,8 @@ function extractimagechannels(imagename)
     redchannel = image[:,:,1]
     greenchannel = image[:,:,2]
     bluechannel = image[:,:,3]
-
     return redchannel, greenchannel, bluechannel 
 
 end
+
+println("Reset with git reset --mixed")
